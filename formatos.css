@@ -1,0 +1,64 @@
+header {
+    background-color: #f084b5;
+    height: 60px;
+    padding-top: 10px ;
+        }
+
+main {
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+}
+
+.cor_fundo {
+    background-color: #d7f4fd;
+}
+
+
+.menu {
+        display: inline;
+        margin-inline: 10px;
+}        
+
+.principal_ril {
+    
+        padding-top: 80px;
+        text-align: center;
+        margin-bottom: 0px;
+        margin-top: 50px;
+        margin-block: 0px;
+                }
+
+h1 {
+    text-align: center;
+        color: #fc4c9c;
+        font-size: 40px;
+        margin-bottom: 0px;
+        font-family: sadines;
+           }
+
+.bemvindo {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 35px;
+    color: #e8a3c2 ;
+    font-family: sadines;
+    
+}
+
+.logo_banner {    
+    max-width: 921px;
+    object-fit:contain;
+    /* width: 50px;
+       height: 50 px;
+       Não utilizei o tamanho proposto na questão, pois
+    estilizei um logotipo em formato banner, espero
+    que esteja tudo bem =] */
+       }
+
+   footer {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: #fc4c9c;
+    height:  25px;
+           }

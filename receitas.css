@@ -1,0 +1,31 @@
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    list-style-position: inside;
+    padding-top: 40px;
+           }
+    
+.flexbox_receita {
+    margin: 6px;
+    padding-left: 20px;
+    width: 420px;
+    background-color:#e8a3c2 ;
+    color: #fc4c9c;
+               }
+h3 {
+    text-align: center;
+    color:#d7f4fd;
+}
+
+.foto_receita {
+    justify-content: center;
+    border: 4px solid #d7f4fd;
+}
+
+hr {
+        margin: 6px;
+        height: 3px;
+        background: #fc4c9c;
+    }
+
+
