@@ -22,7 +22,7 @@ text-align: left;
 </head>
 <header>
     <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color:#fc4c9c;">
-        <!--<div class="collapse navbar-collapse" id="navbarNav">-->
+        <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="home.html">HOME</a>
@@ -40,7 +40,7 @@ text-align: left;
 <body class="cor_fundo">
        <div class="container-fluid" style="padding-top: 20px; padding-bottom: 40px; background-color:#e8a3c2" ;>
         <h1 style="text-align: left; font-size: 50px;"> Efetue seu Cadastro:</h1>
-           <form action="mailto:webspideyelite@hotmail.com" method="post" enctype="text/plain">
+        <form action="mailto:webspideyelite@hotmail.com" method="post" enctype="text/plain">
             <div class="row">
             <div class="col-2"><label for="nome">Nome: </label></div>
             <div class="col-8"><input type="text" name="nome" style="width: 650px;" required></div>
@@ -58,8 +58,8 @@ text-align: left;
             <div class="col-8"> <input type="tel" id="phone" name="tel" placeholder="(xx) xxxxx-xxxx" pattern="^\([1-9]{2}\) (?:[2-8]|9[0-9])[0-9]{3}\-[0-9]{4}$" required /></div>
             </div>
                 <div class="row">
-            <div class="col-2"><label for="CEP">CEP: </label></div>
-            <div class="col-8"><input type="cep" name="cep"  required></div>
+            <div class="col-2"><label for="CEP" >CEP: </label></div>
+            <div class="col-8"><input type="cep" name="cep" placeholder="xxxxx-xxx" pattern="\d{5}-\d{3}" required></div>
             </div>
             <div class="row">
             <div class="col-2"><label for="Rua" >Rua: </label></div>
@@ -77,8 +77,37 @@ text-align: left;
                                     </div>
             <div class="row">
                 <div class="col-2"><label for="UF" style="width: 20px;">UF: </label></div>
-            <div class="col-2"><input type="text" name="UF" style="width: 60px;"   required></div>
-            <div class="col-2"><input type="submit" value="Cadastrar" style="width: 200px;"></div>
+            <div class="col-2"><select name="uf" id="uf">
+                <option value="">Selecione</option>
+                <option value="AC">AC</option>
+                <option value="AL">AL</option>
+                <option value="AP">AP</option>
+                <option value="AM">AM</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="DF">DF</option>
+                <option value="ES">ES</option>
+                <option value="GO">GO</option>
+                <option value="MA">MA</option>
+                <option value="MT">MT</option>
+                <option value="MS">MS</option>
+                <option value="MG">MG</option>
+                <option value="PA">PA</option>
+                <option value="PB">PB</option>
+                <option value="PR">PR</option>
+                <option value="PE">PE</option>
+                <option value="PI">PI</option>
+                <option value="RJ">RJ</option>
+                <option value="RN">RN</option>
+                <option value="RS">RS</option>
+                <option value="RO">RO</option>
+                <option value="RR">RR</option>
+                <option value="SC">SC</option>
+                <option value="SP">SP</option>
+                <option value="SE">SE</option>
+                <option value="TO">TO</option>
+                </select></div>
+            <div class="col-2"><input type="submit" value="Cadastrar" style="width: 200px;" target="_blank"></div>
             </div>
             </form>
         </div>
